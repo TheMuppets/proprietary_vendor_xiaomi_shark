@@ -101,6 +101,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/shark/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.2-service-qti \
     vendor/xiaomi/shark/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
     vendor/xiaomi/shark/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
+    vendor/xiaomi/shark/proprietary/vendor/bin/hw/vendor.pixelworks.hardware.display@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.pixelworks.hardware.display@1.0-service \
     vendor/xiaomi/shark/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.0-service \
     vendor/xiaomi/shark/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
     vendor/xiaomi/shark/proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service \
@@ -113,6 +114,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/shark/proprietary/vendor/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon \
     vendor/xiaomi/shark/proprietary/vendor/bin/imsrcsd:$(TARGET_COPY_OUT_VENDOR)/bin/imsrcsd \
     vendor/xiaomi/shark/proprietary/vendor/bin/init.qti.chg_policy.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.chg_policy.sh \
+    vendor/xiaomi/shark/proprietary/vendor/bin/irisConfig:$(TARGET_COPY_OUT_VENDOR)/bin/irisConfig \
+    vendor/xiaomi/shark/proprietary/vendor/bin/irisPanelCalibration:$(TARGET_COPY_OUT_VENDOR)/bin/irisPanelCalibration \
     vendor/xiaomi/shark/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
     vendor/xiaomi/shark/proprietary/vendor/bin/mlipayd@1.1:$(TARGET_COPY_OUT_VENDOR)/bin/mlipayd@1.1 \
     vendor/xiaomi/shark/proprietary/vendor/bin/mm-pp-dpps:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-dpps \
@@ -258,6 +261,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/shark/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
     vendor/xiaomi/shark/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/xiaomi/shark/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
+    vendor/xiaomi/shark/proprietary/vendor/etc/init/vendor.pixelworks.hardware.display@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.pixelworks.hardware.display@1.0-service.rc \
     vendor/xiaomi/shark/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/xiaomi/shark/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.0-service.rc \
     vendor/xiaomi/shark/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
@@ -323,6 +327,24 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/shark/proprietary/vendor/firmware/a630_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.elf \
     vendor/xiaomi/shark/proprietary/vendor/firmware/a630_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.mdt \
     vendor/xiaomi/shark/proprietary/vendor/firmware/bu64748gwz.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/bu64748gwz.prog \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm1.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm10.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm11.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm12.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm13.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm14.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm15.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm16.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm17.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm2.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm3.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm4.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm5.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm6.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm7.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm8.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParm9.txt \
+    vendor/xiaomi/shark/proprietary/vendor/firmware/inParmFile/inParmRev.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/inParmFile/inParmRev.txt \
     vendor/xiaomi/shark/proprietary/vendor/firmware/iris2p.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/iris2p.fw \
     vendor/xiaomi/shark/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
     vendor/xiaomi/shark/proprietary/vendor/firmware/stm_fts_production_limits.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/stm_fts_production_limits.csv \
@@ -518,6 +540,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/shark/proprietary/vendor/lib/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdnotifier.so \
     vendor/xiaomi/shark/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/xiaomi/shark/proprietary/vendor/lib/libpvr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpvr.so \
+    vendor/xiaomi/shark/proprietary/vendor/lib/libpwirispq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpwirispq.so \
     vendor/xiaomi/shark/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
     vendor/xiaomi/shark/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
     vendor/xiaomi/shark/proprietary/vendor/lib/libqcrilFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrilFramework.so \
@@ -851,6 +874,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/shark/proprietary/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
     vendor/xiaomi/shark/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
     vendor/xiaomi/shark/proprietary/vendor/lib64/libpvr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpvr.so \
+    vendor/xiaomi/shark/proprietary/vendor/lib64/libpwirisPCS.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirisPCS.so \
+    vendor/xiaomi/shark/proprietary/vendor/lib64/libpwirispq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirispq.so \
     vendor/xiaomi/shark/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
     vendor/xiaomi/shark/proprietary/vendor/lib64/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcmaputils.so \
     vendor/xiaomi/shark/proprietary/vendor/lib64/libqcrilFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrilFramework.so \
@@ -948,6 +973,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/shark/proprietary/vendor/lib64/vendor.display.color@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.4.so \
     vendor/xiaomi/shark/proprietary/vendor/lib64/vendor.display.color@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.5.so \
     vendor/xiaomi/shark/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
+    vendor/xiaomi/shark/proprietary/vendor/lib64/vendor.pixelworks.hardware.display@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.pixelworks.hardware.display@1.0_vendor.so \
     vendor/xiaomi/shark/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
     vendor/xiaomi/shark/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/xiaomi/shark/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.alarm@1.0.so \
