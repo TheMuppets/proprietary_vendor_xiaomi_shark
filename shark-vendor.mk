@@ -1135,7 +1135,7 @@ PRODUCT_PACKAGES += \
     dpmapi \
     qcrilhook \
     qti-telephony-common \
-    android.hardware.gnss@2.0-service-qti
+    android.hardware.gnss@2.0-service-qti.xml
 
 PRODUCT_PACKAGES += \
     libimscamera_jni_libimscamera_jni_symlink64 \

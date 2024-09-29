@@ -204,7 +204,7 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.gnss@2.0-service-qti",
+	name: "android.hardware.gnss@2.0-service-qti.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml",
 	filename_from_src: true,
